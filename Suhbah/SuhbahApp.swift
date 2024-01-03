@@ -13,7 +13,7 @@ struct SuhbahApp: App {
 
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            Menu()
                 .environment(\.managedObjectContext, persistenceController.container.viewContext)
         }
     }

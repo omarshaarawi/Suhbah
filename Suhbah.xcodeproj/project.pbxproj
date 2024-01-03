@@ -7,12 +7,29 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2621F5212A10557100591C2F /* BottomSheet in Frameworks */ = {isa = PBXBuildFile; productRef = 2621F5202A10557100591C2F /* BottomSheet */; };
 		265839F02A09684F0071F5BF /* SuhbahApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 265839EF2A09684F0071F5BF /* SuhbahApp.swift */; };
 		265839F22A09684F0071F5BF /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 265839F12A09684F0071F5BF /* ContentView.swift */; };
 		265839F42A0968500071F5BF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 265839F32A0968500071F5BF /* Assets.xcassets */; };
 		265839F72A0968500071F5BF /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 265839F62A0968500071F5BF /* Preview Assets.xcassets */; };
 		265839F92A0968500071F5BF /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 265839F82A0968500071F5BF /* Persistence.swift */; };
 		265839FC2A0968500071F5BF /* Suhbah.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 265839FA2A0968500071F5BF /* Suhbah.xcdatamodeld */; };
+		26583A032A096AAF0071F5BF /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26583A022A096AAF0071F5BF /* MainView.swift */; };
+		26583A072A096C510071F5BF /* Mosque.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26583A062A096C510071F5BF /* Mosque.swift */; };
+		26583A092A096C790071F5BF /* MosqueListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26583A082A096C790071F5BF /* MosqueListView.swift */; };
+		26583A0B2A096C940071F5BF /* MosqueRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26583A0A2A096C940071F5BF /* MosqueRow.swift */; };
+		26583A0D2A099F1A0071F5BF /* SlideOverCardModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26583A0C2A099F1A0071F5BF /* SlideOverCardModifier.swift */; };
+		26583A0F2A099F890071F5BF /* MosqueMapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26583A0E2A099F890071F5BF /* MosqueMapView.swift */; };
+		26583A172A09AB940071F5BF /* Header.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26583A162A09AB940071F5BF /* Header.swift */; };
+		26583A192A09CC1D0071F5BF /* SearchBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26583A182A09CC1D0071F5BF /* SearchBar.swift */; };
+		26583A1F2A0A7C110071F5BF /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26583A1E2A0A7C110071F5BF /* Home.swift */; };
+		26583A222A0A7E310071F5BF /* Extenstions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26583A212A0A7E310071F5BF /* Extenstions.swift */; };
+		26583A242A103A670071F5BF /* CustomBottomSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26583A232A103A670071F5BF /* CustomBottomSheet.swift */; };
+		26DD089D2A103E3D00A8818B /* SomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26DD089C2A103E3D00A8818B /* SomeView.swift */; };
+		26DD089F2A104E6700A8818B /* Menu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26DD089E2A104E6700A8818B /* Menu.swift */; };
+		26DD08A22A10507900A8818B /* AlternativeSheet in Frameworks */ = {isa = PBXBuildFile; productRef = 26DD08A12A10507900A8818B /* AlternativeSheet */; };
+		26E224E72A107EFB005B3BC7 /* ListView2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26E224E62A107EFB005B3BC7 /* ListView2.swift */; };
+		26E224E92A108143005B3BC7 /* MosqueDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26E224E82A108143005B3BC7 /* MosqueDetailView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +40,21 @@
 		265839F62A0968500071F5BF /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		265839F82A0968500071F5BF /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
 		265839FB2A0968500071F5BF /* Suhbah.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Suhbah.xcdatamodel; sourceTree = "<group>"; };
+		26583A022A096AAF0071F5BF /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		26583A062A096C510071F5BF /* Mosque.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mosque.swift; sourceTree = "<group>"; };
+		26583A082A096C790071F5BF /* MosqueListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MosqueListView.swift; sourceTree = "<group>"; };
+		26583A0A2A096C940071F5BF /* MosqueRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MosqueRow.swift; sourceTree = "<group>"; };
+		26583A0C2A099F1A0071F5BF /* SlideOverCardModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SlideOverCardModifier.swift; sourceTree = "<group>"; };
+		26583A0E2A099F890071F5BF /* MosqueMapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MosqueMapView.swift; sourceTree = "<group>"; };
+		26583A162A09AB940071F5BF /* Header.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Header.swift; sourceTree = "<group>"; };
+		26583A182A09CC1D0071F5BF /* SearchBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchBar.swift; sourceTree = "<group>"; };
+		26583A1E2A0A7C110071F5BF /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
+		26583A212A0A7E310071F5BF /* Extenstions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extenstions.swift; sourceTree = "<group>"; };
+		26583A232A103A670071F5BF /* CustomBottomSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomBottomSheet.swift; sourceTree = "<group>"; };
+		26DD089C2A103E3D00A8818B /* SomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SomeView.swift; sourceTree = "<group>"; };
+		26DD089E2A104E6700A8818B /* Menu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Menu.swift; sourceTree = "<group>"; };
+		26E224E62A107EFB005B3BC7 /* ListView2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListView2.swift; sourceTree = "<group>"; };
+		26E224E82A108143005B3BC7 /* MosqueDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MosqueDetailView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -30,6 +62,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				26DD08A22A10507900A8818B /* AlternativeSheet in Frameworks */,
+				2621F5212A10557100591C2F /* BottomSheet in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -56,6 +90,17 @@
 			isa = PBXGroup;
 			children = (
 				265839EF2A09684F0071F5BF /* SuhbahApp.swift */,
+				26583A022A096AAF0071F5BF /* MainView.swift */,
+				26583A1E2A0A7C110071F5BF /* Home.swift */,
+				26583A1D2A0A7BA80071F5BF /* Model */,
+				26583A1C2A0A7B8B0071F5BF /* View */,
+				26583A162A09AB940071F5BF /* Header.swift */,
+				26583A182A09CC1D0071F5BF /* SearchBar.swift */,
+				26583A0C2A099F1A0071F5BF /* SlideOverCardModifier.swift */,
+				26583A0E2A099F890071F5BF /* MosqueMapView.swift */,
+				26583A082A096C790071F5BF /* MosqueListView.swift */,
+				26E224E82A108143005B3BC7 /* MosqueDetailView.swift */,
+				26583A0A2A096C940071F5BF /* MosqueRow.swift */,
 				265839F12A09684F0071F5BF /* ContentView.swift */,
 				265839F32A0968500071F5BF /* Assets.xcassets */,
 				265839F82A0968500071F5BF /* Persistence.swift */,
@@ -71,6 +116,34 @@
 				265839F62A0968500071F5BF /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		26583A1C2A0A7B8B0071F5BF /* View */ = {
+			isa = PBXGroup;
+			children = (
+				26583A202A0A7C360071F5BF /* Helpers */,
+				26583A232A103A670071F5BF /* CustomBottomSheet.swift */,
+				26DD089C2A103E3D00A8818B /* SomeView.swift */,
+				26DD089E2A104E6700A8818B /* Menu.swift */,
+				26E224E62A107EFB005B3BC7 /* ListView2.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		26583A1D2A0A7BA80071F5BF /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				26583A062A096C510071F5BF /* Mosque.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		26583A202A0A7C360071F5BF /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				26583A212A0A7E310071F5BF /* Extenstions.swift */,
+			);
+			path = Helpers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -89,6 +162,10 @@
 			dependencies = (
 			);
 			name = Suhbah;
+			packageProductDependencies = (
+				26DD08A12A10507900A8818B /* AlternativeSheet */,
+				2621F5202A10557100591C2F /* BottomSheet */,
+			);
 			productName = Suhbah;
 			productReference = 265839EC2A09684F0071F5BF /* Suhbah.app */;
 			productType = "com.apple.product-type.application";
@@ -117,6 +194,10 @@
 				Base,
 			);
 			mainGroup = 265839E32A09684F0071F5BF;
+			packageReferences = (
+				26DD08A02A10507900A8818B /* XCRemoteSwiftPackageReference "AlternativeSheet" */,
+				2621F51F2A10557100591C2F /* XCRemoteSwiftPackageReference "BottomSheet" */,
+			);
 			productRefGroup = 265839ED2A09684F0071F5BF /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -143,10 +224,25 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				26583A192A09CC1D0071F5BF /* SearchBar.swift in Sources */,
+				26583A0F2A099F890071F5BF /* MosqueMapView.swift in Sources */,
+				26E224E92A108143005B3BC7 /* MosqueDetailView.swift in Sources */,
+				26583A222A0A7E310071F5BF /* Extenstions.swift in Sources */,
+				26E224E72A107EFB005B3BC7 /* ListView2.swift in Sources */,
+				26583A172A09AB940071F5BF /* Header.swift in Sources */,
+				26583A092A096C790071F5BF /* MosqueListView.swift in Sources */,
 				265839F92A0968500071F5BF /* Persistence.swift in Sources */,
+				26583A0D2A099F1A0071F5BF /* SlideOverCardModifier.swift in Sources */,
+				26583A1F2A0A7C110071F5BF /* Home.swift in Sources */,
 				265839F22A09684F0071F5BF /* ContentView.swift in Sources */,
 				265839FC2A0968500071F5BF /* Suhbah.xcdatamodeld in Sources */,
+				26DD089D2A103E3D00A8818B /* SomeView.swift in Sources */,
+				26583A0B2A096C940071F5BF /* MosqueRow.swift in Sources */,
+				26583A072A096C510071F5BF /* Mosque.swift in Sources */,
+				26DD089F2A104E6700A8818B /* Menu.swift in Sources */,
+				26583A032A096AAF0071F5BF /* MainView.swift in Sources */,
 				265839F02A09684F0071F5BF /* SuhbahApp.swift in Sources */,
+				26583A242A103A670071F5BF /* CustomBottomSheet.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -347,6 +443,38 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		2621F51F2A10557100591C2F /* XCRemoteSwiftPackageReference "BottomSheet" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/lucaszischka/BottomSheet";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 3.0.0;
+			};
+		};
+		26DD08A02A10507900A8818B /* XCRemoteSwiftPackageReference "AlternativeSheet" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/JonasHiltl/AlternativeSheet";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		2621F5202A10557100591C2F /* BottomSheet */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 2621F51F2A10557100591C2F /* XCRemoteSwiftPackageReference "BottomSheet" */;
+			productName = BottomSheet;
+		};
+		26DD08A12A10507900A8818B /* AlternativeSheet */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 26DD08A02A10507900A8818B /* XCRemoteSwiftPackageReference "AlternativeSheet" */;
+			productName = AlternativeSheet;
+		};
+/* End XCSwiftPackageProductDependency section */
 
 /* Begin XCVersionGroup section */
 		265839FA2A0968500071F5BF /* Suhbah.xcdatamodeld */ = {
