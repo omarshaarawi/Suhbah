@@ -32,28 +32,5 @@ struct MainView: View {
 
 
 
-    
-//        TabView {
-//            ContentView()
-//                .tabItem {
-//                    Label("Menu", systemImage: "list.dash")
-//                }
-//
-//            Menu()
-//                .tabItem {
-//                    Label("Order", systemImage: "square.and.pencil")
-//                }
-//            ZStack {
-//                VStack(spacing: 0) {
-//                    Spacer()
-//                    MosqueMapView()
-//                }
-//
-//            }
-//                .tabItem {
-//                    Label("Order", systemImage: "square.and.pencil")
-//                }        
-//            
-//        }
     }
 }

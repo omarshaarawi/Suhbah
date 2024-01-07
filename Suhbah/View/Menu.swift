@@ -25,26 +25,9 @@ struct Menu: View {
                         .tabItem {
                             Image(systemName: "magnifyingglass.circle")
                             Text("Directory")
-                        }
-             
-                    
-           
-                    
-                    Text("")
-                        .tabItem {
-                            Image(systemName: "bell.circle")
-                            Text("Notifications")
-                        }
-                    Text("")
-                        .tabItem {
-                            Image(systemName: "person.crop.circle.fill")
-                            Text("Account")
-                        }
+                        }                
                 }
                 
-//                .background(
-//                    Color.gray.offset(y: showingBottomSheet ? 0 : UIScreen.main.bounds.size.height - 120)
-//                )
             }
         
     }
